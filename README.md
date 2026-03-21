@@ -1,15 +1,14 @@
-Employee Management System
-Full Stack Web Application — Spring Boot + React + MySQL
- 
-Tech Stack
------------
-Backend — Java 17, Spring Boot 3.2, Spring Data JPA, Hibernate, MySQL
-Frontend — React 18, Vite, Axios, React Router, React Toastify
-Database — MySQL 8, Hibernate ORM
-Tools — Maven, Git, Postman, Eclipse, VS Code
+# Employee Management System
 
-Features
----------
+Full Stack Web Application — Spring Boot + React + MySQL
+
+## Tech Stack
+- **Backend** — Java 17, Spring Boot 3.2, Spring Data JPA, Hibernate, MySQL
+- **Frontend** — React 18, Vite, Axios, React Router, React Toastify
+- **Database** — MySQL 8, Hibernate ORM
+- **Tools** — Maven, Git, Postman, Eclipse, VS Code
+
+## Features
 - Add, View, Edit, Delete employees
 - Real-time search by name, email, department
 - Form validation with error messages
@@ -17,27 +16,25 @@ Features
 - Department color-coded badges
 - Responsive UI
 
-How to Run
------------
-Backend
-----
-bash
+## How to Run
+
+### Backend
+```bash
 cd backend
 # Update application.properties with your MySQL password
 mvn spring-boot:run
 # Runs on http://localhost:8080
+```
 
-Frontend
-------
-bash
+### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
-Runs on http://localhost:5173
+# Runs on http://localhost:5173
+```
 
-API Endpoints
----------------
-
+## API Endpoints
 | Method | URL | Description |
 |--------|-----|-------------|
 | GET | /api/employees | Get all employees |
@@ -46,9 +43,8 @@ API Endpoints
 | PUT | /api/employees/{id} | Update employee |
 | DELETE | /api/employees/{id} | Delete employee |
 
-
-Project Structure
--------------------
+## Project Structure
+```
 employee-management-system/
 ├── backend/         ← Spring Boot REST API
 │   ├── src/main/java/com/ems/
@@ -65,3 +61,4 @@ employee-management-system/
     │   ├── pages/
     │   └── services/
     └── package.json
+```
