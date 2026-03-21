@@ -6,7 +6,7 @@ import axios from 'axios'
 //   Base URL: http://localhost:8080/api/employees
 // ============================================
 
-const BASE_URL = 'http://localhost:8080/api/employees'
+const BASE_URL = "https://employee-management-system.up.railway.app/api/employees";
 
 const EmployeeService = {
 
