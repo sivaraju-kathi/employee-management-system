@@ -12,7 +12,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/employees")
-@CrossOrigin(origins = "")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://ems-fullstack.netlify.app/"
+})
 @RequiredArgsConstructor
 public class EmployeeController {
 
