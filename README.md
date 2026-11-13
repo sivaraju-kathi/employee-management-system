@@ -15,24 +15,6 @@ Full Stack Web Application — Spring Boot + React + MySQL
 - Department color-coded badges
 - Responsive UI
 
-## How to Run
-
-### Backend
-```bash
-cd backend
-# Update application.properties with your MySQL password
-mvn spring-boot:run
-# Runs on http://localhost:8080
-```
-
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-# Runs on http://localhost:5173
-```
-
 ## API Endpoints
 | Method | URL | Description |
 |--------|-----|-------------|
