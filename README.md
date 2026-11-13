@@ -3,16 +3,15 @@
 Full Stack Web Application — Spring Boot + React + MySQL
 
 ## Tech Stack
-- **Backend** — Java 17, Spring Boot 3.2, Spring Data JPA, Hibernate, MySQL
-- **Frontend** — React 18, Vite, Axios, React Router, React Toastify
-- **Database** — MySQL 8, Hibernate ORM
+- **Backend** — Java 17, Spring Boot MySQL
+- **Frontend** — React 18, Vite, Axios, React Router
+- **Database** — MySQL
 - **Tools** — Maven, Git, Postman, Eclipse, VS Code
 
 ## Features
 - Add, View, Edit, Delete employees
 - Real-time search by name, email, department
 - Form validation with error messages
-- Toast notifications for all actions
 - Department color-coded badges
 - Responsive UI
 
